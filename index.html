@@ -8,42 +8,46 @@
 <style>
 body{
     margin:0;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     background:#f4f4f4;
     color:#333;
-}
-
-/* أنيميشن دخول */
-@keyframes fadeIn {
-    from {opacity:0; transform:translateY(20px);}
-    to {opacity:1; transform:translateY(0);}
+    text-align:center;
 }
 
 header{
     background:#2a5298;
     color:white;
-    padding:50px 20px;
-    text-align:center;
-    animation: fadeIn 1s ease-in-out;
-}
-
-.container{
-    max-width:800px;
-    margin:auto;
-    padding:20px;
+    padding:40px;
 }
 
 .card{
     background:white;
+    margin:20px auto;
     padding:20px;
-    margin:20px 0;
-    border-radius:12px;
-    box-shadow:0 3px 10px rgba(0,0,0,0.1);
-    animation: fadeIn 1s ease-in-out;
-    transition:0.3s;
+    width:80%;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
+</style>
 
-/* حركة عند المرور */
-.card:hover{
-    transform: scale(1.03);
-    box-shadow:0 6
+</head>
+
+<body>
+
+<header>
+    <h1>اسمك هنا</h1>
+    <p>مطور ويب</p>
+</header>
+
+<div class="card">
+    <h2>نبذة عني</h2>
+    <p>أنا أتعلم البرمجة وأحب تطوير المواقع.</p>
+</div>
+
+<div class="card">
+    <h2>المهارات</h2>
+    <p>HTML - CSS - JavaScript</p>
+</div>
+
+</body>
+</html>
