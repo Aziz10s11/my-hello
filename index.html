@@ -1,1 +1,49 @@
-in
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سيرتي الذاتية</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    color:#333;
+}
+
+/* أنيميشن دخول */
+@keyframes fadeIn {
+    from {opacity:0; transform:translateY(20px);}
+    to {opacity:1; transform:translateY(0);}
+}
+
+header{
+    background:#2a5298;
+    color:white;
+    padding:50px 20px;
+    text-align:center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.container{
+    max-width:800px;
+    margin:auto;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin:20px 0;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    animation: fadeIn 1s ease-in-out;
+    transition:0.3s;
+}
+
+/* حركة عند المرور */
+.card:hover{
+    transform: scale(1.03);
+    box-shadow:0 6
